@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicas</title>
+    
+
+    <style>
+        body {
+            background-color: #191414;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+
+        }
+
+        .container {
+            background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .titulo-paragrafo {
+            color: antiquewhite;
+            display: block;
+            text-align: center;
+        }
+
+        .titulo-paragrafo h1 {
+            padding-left: 35px;
+            max-width: 100%;
+            font-weight: 900;
+        }
+
+        .titulo-paragrafo h2 {
+            max-width: 100%;
+            font-weight: 800;
+        }
+
+        .titulo-paragrafo p {
+            max-width: 100%;
+            font-weight: 700;
+        }
+
+        li {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .listas {
+
+            display: flex;
+            justify-content: start;
+            width: 400px;
+            background-color: #121212;
+
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #26c55e;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .listas a:hover {
+            background-color: #282828;
+            color: #3ffe82;
+            transition: color 0.3s ease;
+        }
+
+
+
+        .listas ul {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        .listas li {
+            padding: 15px;
+        }
+
+        .titulos-lista {
+            font-weight: 900;
+            font-size: 40px;
+        }
+
+        .voltar {
+            background-color: #282828;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            margin-top: 0px;
+        }
+
+
+
+        a button {
+            font-weight: 700;
+            padding: auto;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            cursor: pointer;
+            margin: 10px;
+            border: 0;
+            background-color: #121212;
+            border-radius: 30px;
+            padding: 20px;
+        }
+
+        button:hover {
+            color: #121212;
+            background-color: #1DB954;
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+
+        button a:hover {
+            color: #121212;
+            transition: color 0.3s ease;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 120px;
+            margin: 20px;
+        }
+
+        img:hover {
+            box-shadow: 0px 0px 30px #1ED760;
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo-paragrafo">
+            <div class="voltar">
+                <h1>Minha Playlist</h1>
+                <a href="index.html"> <button>Inicio</button></a>
+                <a href="filmes.html"><button>Filmes</button></a>
+                <a href="chefes.html"><button>Chefes</button></a>
+            </div>
+            
+            <h2>Algumas das musicas que gosto de ouvir</h2>
+            <p>Fiz uma playlist com gosto variados e diferentes gêneros musicais. <br>
+                Minha Playlist do Spotify. Basta clicar na imagem abaixo.</p>
+            <a href="https://open.spotify.com/playlist/5YPkHnW6gro2VtMxkEHiF6?si=jKMWFOHpR0WAk-TuIo4dOQ"
+                target="_blank"><img src="img-musicas/spotify.png" alt=""></a>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/5YPkHnW6gro2VtMxkEHiF6?utm_source=generator" width="100%"
+                height="352" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+        <div class="listas">
+            <ul>
+                <li class="titulos-lista">MC KEVIN APENAS</li>
+                <ul>
+                    <a href="https://youtu.be/RSMjCTySgNU?si=aWyaeJKUCqErupqe" target="_blank">
+                        <li>MC KEVIN - "Piscina de Diamante"</li>
+                    </a>
+                    <a href="https://youtu.be/aQx4Bhr2Tso?si=XufFrU10i49NjBQQ" target="_blank">
+                        <li>MC KEVIN - "Estilo Drake"</li>
+                    </a>
+                    <a href="https://youtu.be/3gkzUfdpktQ?si=0UVMcPwRGeSxWRRL" target="_blank">
+                        <li>MC KEVIN - "Pula Catraca"</li>
+                    </a>
+                    <a href="https://youtu.be/LpWz-ilAmbM?si=aXYrsl-FUcRa2aPv" target="_blank">
+                        <li>MC KEVIN - "Deixou Pra Lá"</li>
+                    </a>
+                    <a href="https://youtu.be/zafM80qiyR8?si=-VuWGUkv3JbFI_se" target="_blank">
+                        <li>MC KEVIN - "Não me julga, Não me traga estresse"</li>
+                    </a>
+                    <a href="https://youtu.be/046aCDyYy6g?si=MoGdMP9m2VfXGu9q" target="_blank">
+                        <li>MC KEVIN - "Mensagem"</li>
+                    </a>
+                    <a href="https://youtu.be/iDOZdLG9tuw?si=OcIf-02qxk0qN7E7" target="_blank">
+                        <li>MC KEVIN - "Doutora"</li>
+                    </a>
+                    <a href="https://youtu.be/MmRhhQhJhtE?si=2EENn28ygQFFc6-N" target="_blank">
+                        <li>MC KEVIN - "Doutora 2"</li>
+                    </a>
+                    <a href="https://youtu.be/7YgYGJre44U?si=krbcgIYS7TwJOH0l" target="_blank">
+                        <li>MC KEVIN - "Pandemia"</li>
+                    </a>
+
+                    <a href="https://youtu.be/84IgwzZ7Rmo?si=fxb7jAyhXydU-fRh" target="_blank">
+                        <li>MC KEVIN - "Passei de foguetão"</li>
+                    </a>
+                    <a href="https://youtu.be/T0Q9-ghLAiA?si=naBgXSv5P_wuPoyD" target="_blank">
+                        <li>MC KEVIN - "Opção"</li>
+                    </a>
+                    <a href="https://youtu.be/g0IGbRpAAuI?si=OcExN_eKiiK_1Ega" target="_blank">
+                        <li>MC KEVIN - "Alma Pura"</li>
+                    </a>
+                    <a href="https://youtu.be/wz2jbQPvkkY?si=SDFrdgksC-9c9P0R" target="_blank">
+                        <li>MC KEVIN - "Junção Venenosa"</li>
+                    </a>
+                    <a href="https://youtu.be/QkwAWe7nOXY?si=qF82CLjmR_fSbZc8" target="_blank">
+                        <li>MC KEVIN - "Vergonha pra Midia"</li>
+                    </a>
+                </ul>
+
+                <li class="titulos-lista">Trap</li>
+                <ul>
+                    <a href="https://youtu.be/sK1X0oEdXyM?si=w1desfU2vQ-gC07k" target="_blank">
+                        <li>Brocasito - "Tentando sair do Gueto"</li>
+                    </a>
+                    <a href="https://youtu.be/Z7X51B-AQcc?si=IHS9Sri6b2xsRI7O" target="_blank">
+                        <li>Danzo - "Bala"</li>
+                    </a>
+                    <a href="https://youtu.be/QhwN7oPseHc?si=6YcPzSOZLWkWrkYc" target="_blank">
+                        <li>Danzo - "Ponto de Visão"</li>
+                    </a>
+                    <a href="https://youtu.be/zisoTBdGTXk?si=wBsTz1fJu86wdyvv" target="_blank">
+                        <li>Danzo - "Oi Me Liga Depois"</li>
+                    </a>
+                </ul>
+                <li class="titulos-lista">Rap/Love Song</li>
+                <ul>
+                    <a href="https://youtu.be/zlxdvnkMs_M?si=leZAH0sVXlx0NePZ" target="_blank">
+                        <li>Sain - "Iori Incoporado"</li>
+                    </a>
+                    <a href="https://youtu.be/sabW3up4BY8?si=6t_dlgkoR6xTfDG0" target="_blank">
+                        <li>Sain - "Rosas e Rimas"</li>
+                    </a>
+                    <a href="https://youtu.be/IaJv-IC9vDw?si=M-dYVuckcBeRg-9T" target="_blank">
+                        <li>BK - "Luccas Carlos"</li>
+                    </a>
+                    <a href="https://youtu.be/_AycHaPQJG0?si=siN1cJ5LfTQysVDE" target="_blank">
+                        <li>RZO - "O trem"</li>
+                    </a>
+                    <a href="https://youtu.be/hNHlc7PoIdg?si=N_lUC4Qwm9O2BZM6" target="_blank">
+                        <li>Racionais MC's - "Vida Loka Parte 2"</li>
+                    </a>
+                    <a href="https://youtu.be/mLDlgeS8JpE?si=1YfR9MhNHST7kuQ3" target="_blank">
+                        <li>Racionais MC's - "Homem na estrada"</li>
+                    </a>
+                    <a href="https://youtu.be/ytHRxkhl638?si=v4J8adaU0d2u7bog" target="_blank">
+                        <li>Trilha Sonora do Gueto - "Pião di Vida Loka"</li>
+                    </a>
+                    <a href="https://youtu.be/akqrTUB-cpM?si=JW99AjZiTHIfLEvw" target="_blank">
+                        <li>Trilha Sonora do Gueto - "Vida Loka Tambem Ama"</li>
+                    </a>
+                </ul>
+                </li>
+                <li class="titulos-lista">Reggae</li>
+                <ul>
+                    <a href="https://youtu.be/d6I8tw8VQ1I?si=zrhb4LwpTng8TQLv" target="_blank">
+                        <li>scorpion & ashanti waugh - we nuh ina it</li>
+                    </a>
+                    <a href="https://youtu.be/wU9TbMSVkoI?si=K-rVobcyQnI_iuXS" target="_blank">
+                        <li>Derrick Irie - Me Rule De Dance</li>
+                        <a href="https://youtu.be/u6iKAAJhvVM?si=EXUjvMaYmz-MsL8I" target="_blank">
+                            <li>Risto Benjie - Slice Of The Cake</li>
+                        </a>
+                        <a href="https://youtu.be/R34XEKj9pKQ?si=WP-pVyzQYG8TEJsZ" target="_blank">
+                            <li>Tiger - Rock Them Time</li>
+                        </a>
+                        <a href="https://youtu.be/PQ2e81DZhFo?si=XZgxeuh3gBJ4aZz0" target="_blank">
+                            <li>Red Dragon - Commandor - 7inch / 10 Roosevelt Ave</li>
+                        </a>
+                        <a href="https://youtu.be/ufsTalHVe5Y?si=oGh2m0uZd9egDg7C" target="_blank">
+                            <li>SISTER CHINA - Jam The Calypso</li>
+                        </a>
+                        <a href="https://youtu.be/1yt2SxAfzUc?si=u-1sKV9VoN6j-wn3" target="_blank">
+                            <li>Don Hicky & Terrific - Cancel Yu Flight + Version</li>
+                        </a>
+                        <a href="https://youtu.be/lt7ZvBVXlGI?si=ScIQtRjRJMKeKSY-" target="_blank">
+                            <li>Dave Bailey - Money Don - 7inch / Oneness</li>
+                        </a>
+                        <a href="https://youtu.be/OX9f8aGnGSo?si=C1Kg4IjvMpJ6ZdOU" target="_blank">
+                            <li>Wendy Culture - French Cut</li>
+                        </a>
+                        <a href="https://youtu.be/JTSrv6nTcRE?si=f8f34oB0lPcnMLLt" target="_blank">
+                            <li>Red dragon - size (Rare??)</li>
+                        </a>
+                        <a href="https://youtu.be/tYmEC9vtujs?si=0Edt5cu0lPY5h87Q" target="_blank">
+                            <li>Owen Knibbs - Juggler + Dub - 7" Virgo Production 1987 - RAGGAMUFFIN SOLDIER - KILLER
+                                DIGI</li>
+                        </a>
+                        <a href="https://youtu.be/4KCVptkk3-A?si=KEQnJJ0-FSAQQOj5" target="_blank">
+                            <li>Papa San - Style And Fashion (Duck Riddim)</li>
+                        </a>
+                        <a href="https://youtu.be/DStHQPKDSI0?si=S6-lr9N3uVt1sfCh" target="_blank">
+                            <li>Terror Fabulous - Matty Son (Side B Instrumental) 1995</li>
+                        </a>
+                        <a href="https://youtu.be/XczW1LzvNIo?si=rIbx3wmUZLz717HT" target="_blank">
+                            <li>Ooca Sound's - Escorpiao ft. Gnomo Inna Dance</li>
+                        </a>
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
